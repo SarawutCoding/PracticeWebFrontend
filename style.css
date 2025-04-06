@@ -107,6 +107,12 @@ nav{
     button{
       display: flex;
       align-items: center;
+      padding: 10px;
+      background-color: #d3d3d347;
+      border-radius: 30px;
+      border: 1px solid #cccccc3d;
+      color: white;
+      font-weight: bold;
     }
   }
 
