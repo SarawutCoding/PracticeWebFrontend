@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #0f0f0f;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px 12px 15px;
+  .lefe{
+    display: flex;
+    align-items: center;
+    button{
+      border: none;
+      background-color: #0f0f0f;
+      padding: 5px 10px 5px 10px;
+      cursor: pointer;
+      i{
+        color: aliceblue;
+        font-size: 25px;
+      }
+    }
+    button:hover{
+      background-color: #d3d3d347;
+      border-radius: 30px;
+    }
+  
+    .logo{
+      padding: 5px 8px 5px 8px;
+      color: aliceblue;
+      a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        i{
+          color: red;
+          font-size: 30px;
+          margin-right: 2px
+        }
+        h2{
+          color: aliceblue;
+        }
+        p{
+          position: absolute;
+          top: 20px;
+          left: 190px;
+          font-size: 10px;
+          color: aliceblue;
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  .sreachBar {
+    display: flex;
+    align-items: center;
+  }
+  .sreachBar form {
+    display: flex;
+  }
+
+  .sreachBar input[type="search"] {
+      border: 1px solid #cccccc3d;
+      padding: 8px;
+      border-right: none; /* ตัดขอบขวา เพื่อไม่ให้ซ้อนกับปุ่ม */
+      border-radius: 15px 0 0 15px; /* มุมโค้งด้านซ้าย */
+      outline: none;
+      width: 400px;
+      background-color: #0f0f0f;
+      color: white;
+  }
+
+  .sreachBar button {
+      padding: 8px 12px;
+      border: 1px solid #cccccc3d;
+      border-left: none; /* ตัดขอบซ้าย */
+      background-color: #d3d3d347;
+      cursor: pointer;
+      border-radius: 0 15px 15px 0; /* มุมโค้งด้านขวา */
+      color: white;
+  }
+
+  .sreachBar .micIcon{
+    border: 1px solid #cccccc3d;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    border-radius: 30px;
+    background-color: #d3d3d347;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+
+  .sreachBar .micIcon:hover{
+    background-color: #d3d3d3a5;
+  }
+
+  .lastNav{
+    display: flex;
+    align-items: center;
+    button{
+      display: flex;
+      align-items: center;
+    }
+  }
+
+}
