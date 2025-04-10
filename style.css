@@ -157,7 +157,6 @@ nav{
 
 .container{
   display: flex;
-  align-items: center;
   .sitebar{
     a{
       display: flex;
